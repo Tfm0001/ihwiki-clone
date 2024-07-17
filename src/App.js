@@ -4,7 +4,7 @@ import NavBar from './components/NavBar.js';
 import FooterBar from './components/FooterBar.js';
 import data from './db.json'
 
-import { getCategoryEmoji, upperFirstLetter, getRefLink, sliceString } from 'src/helpers/utils.js';
+import { getCategoryEmoji, upperFirstLetter, getRefLink, sliceString } from './helpers/utils.js';
 import HoverImage from './assets/hover-on-card.png';
 
 const App = () => {
